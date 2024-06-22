@@ -1,5 +1,10 @@
 public class tipos_variaveis {
     public static void main(String[] args) throws Exception {
+        //tipos primitivos
+        //String que representa texto na aplicacao
+
+        String meuNome = "Lucas Thiago";
+        
         double salarioMinino = 2500.33;
 
         short numeroCurto = 1;
