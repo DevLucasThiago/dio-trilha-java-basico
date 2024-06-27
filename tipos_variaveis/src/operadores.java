@@ -1,29 +1,18 @@
 public class operadores {
     public static void main(String[] args) {
-        
-        String concatenacao ="?"; 
+      boolean condicao1=true;
 
-        System.out.println(concatenacao);
+      boolean condicao2=true;
 
-        concatenacao = 1+1+1+"1";
-        
-        System.out.println(concatenacao);
+      if (condicao1 && (7 > 4)){
+        System.out.println("as duas condicoes sao verdadeiras");
+      }
 
-        concatenacao = 1+"1"+1+1;
-        
-        System.out.println(concatenacao);
+      if (condicao1 || condicao2){
+        System.out.println("Uma das condicoes eh verdadeira");
+      }
 
-        concatenacao = 1+"1"+1+"1";
-        
-        System.out.println(concatenacao);
-
-        concatenacao = "1"+1+1+1;
-        
-        System.out.println(concatenacao);
-
-        concatenacao = "1"+(1+1+1);
-
-        System.out.println(concatenacao);
-
+      System.out.println("fim");
+       
     }
 }
